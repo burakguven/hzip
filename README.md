@@ -4,12 +4,12 @@ hzip
 File compressor that uses the Huffman coding algorithm. It can be used both as
 a library and on the command line with the `hzip` and `hunzip` commands.
 
-installation
+Installation
 ------------
 
     go get github.com/burakguven/hzip/...
 
-library usage
+Library Usage
 -------------
 
 Use `hzip.NewWriter` to get an `io.Writer` that will compress any data written to it.
@@ -38,7 +38,7 @@ func main() {
 }
 ```
 
-command line usage
+Command Line Usage
 ------------------
 
 Any data piped into `hzip` will be compressed and written to stdout.
