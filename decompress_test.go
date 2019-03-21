@@ -63,7 +63,7 @@ func tryDecompress(t *testing.T, data []byte) error {
 
 func TestMalformedHeader(t *testing.T) {
 	var err error
-	data, err := ioutil.ReadFile("testData/hello.hz")
+	data, err := ioutil.ReadFile("testdata/hello.hz")
 	if err != nil {
 		t.Fatal(err)
 	}
