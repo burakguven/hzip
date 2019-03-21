@@ -1,5 +1,7 @@
 # hzip
 
+[![Build Status](https://travis-ci.org/burakguven/hzip.svg?branch=master)](https://travis-ci.org/burakguven/hzip)
+
 File compressor that uses the [Huffman coding algorithm](https://en.wikipedia.org/wiki/Huffman_coding). It can be used both as a library and on the command line with the `hzip` and `hunzip` commands.
 
 ## Installation
